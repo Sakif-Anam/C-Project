@@ -3,6 +3,7 @@ int main()
 {
 double a, b;
 char s;
+printf("--------Welcome to basic Calculator-----\n");
 printf("Enter the 1st number: ", a);
 scanf("%lf", &a);
 printf("Enter an operator(+, -, *, /): ", s);
@@ -18,3 +19,4 @@ else printf("Invalid Operator!\nPlease Give the Valid Ones\n");
 printf("----------------------------------------------------------------\n");
 return 0;
 }
+
